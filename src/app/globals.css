@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #148c32;
+  --color-brand-dark: #0e6c26;
+  --color-brand-deep: #0a4a1a;
+  --color-mint: #eaf6ec;
+  --color-ink: #14231a;
+  --font-serif: Georgia, "Times New Roman", serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #14231a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+:focus-visible {
+  outline: 3px solid #148c32;
+  outline-offset: 2px;
+}
